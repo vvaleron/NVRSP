@@ -1,1 +1,14 @@
-<h1>Prices content</h1>
+<div class="container">
+    <div class="row text-center">Диаметр</div>
+    <div class="row">
+        <div class="col-xs-2"></div>
+        
+        <div class="col-xs-1" ng-repeat="stainless in prices[0].stainless_steel">{{stainless.diameter}} мм</div>
+    </div>
+    
+    <div class="row" ng-repeat="price in prices">
+        <div class="col-xs-2">{{price.label}}</div>
+        
+        <div class="col-xs-1" ng-repeat="singlePrice in price.stainless_steel">{{singlePrice.price}}</div>
+    </div>
+</div>
