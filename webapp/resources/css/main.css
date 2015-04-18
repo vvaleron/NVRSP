@@ -1,3 +1,7 @@
 .page-header {
     margin: 0;
 }
+
+.elements .row {
+    margin-bottom: 4px;
+}
