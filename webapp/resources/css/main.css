@@ -2,6 +2,23 @@
     margin: 0;
 }
 
-.elements .row {
-    margin-bottom: 4px;
+#map-canvas { height: 100% }
+
+.xx-elements .xx-item-panel .panel-footer,
+.xx-examples .xx-item-panel .panel-footer {
+    text-align: center;
+    background-color: #222;
+    border-color: #080808;
+    color: #9d9d9d;
+}
+.xx-elements .xx-item-panel:hover .panel-footer,
+.xx-examples .xx-item-panel:hover .panel-footer {
+    color: #ffffff;
+    cursor: pointer;
+}
+.xx-elements .xx-item-panel img{
+    margin: 0 auto;
+}
+.xx-elements .xx-item-panel img:hover {
+    cursor: pointer;
 }
